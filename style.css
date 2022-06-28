@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Inconsolata:wght@300&family=Titan+One&display=swap');
+
+h1{
+   font-style: italic;
+    font-family: Titan One;
+    font-size: 8vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+}
+body{
+    background: rgb(154,92,164);
+    background: linear-gradient(180deg, rgba(154,92,164,1) 6%, rgba(0,0,0,1) 39%);
+    color: rgb(255, 255, 255);
+}
+#intro-pag{
+    margin-bottom: 50vh;
+}
+p{
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 15vh;
+    font-size: 2vh;
+}
+
+h2{
+    font-style: italic;
+    font-family: Titan One;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 6vh;
+    font-size: 3vh;
+}
+ul li{
+    list-style: none;
+    color: black;
+}
+a{
+    font-size: 2vh;
+    text-decoration: none;
+}
+p a{
+    font-family: Inconsolata;
+}
+#pac{
+    color: white;
+}
+#space{
+    color: white;
+}
+#dk{
+    color: white;
+}
