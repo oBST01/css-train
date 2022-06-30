@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Inconsolata:wght@300&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 
 h1{
-   font-style: italic;
-    font-family: Titan One;
-    font-size: 8vh;
+    font-style: italic;
+    font-family: Montserrat;
+    font-size: 10vh;
     text-align: center;
     color: rgb(0, 0, 0);
-    margin-top: 30vh;
     margin-bottom: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-weight: bold;
 }
 body{
-    background: rgb(154,92,164);
-    background: linear-gradient(180deg, rgba(154,92,164,1) 6%, rgba(0,0,0,1) 39%);
-    color: rgb(255, 255, 255);
+    background: rgb(26,61,189);
+    background: radial-gradient(circle, rgba(26,61,189,1) 0%, rgba(131,12,167,1) 100%);
+
 }
 #intro-pag{
     margin-bottom: 50vh;
@@ -24,34 +32,42 @@ p{
     margin-left: 20vh;
     margin-right: 20vh;
     margin-bottom: 15vh;
-    font-size: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: Arima;
+    color: white;
 }
-
 h2{
     font-style: italic;
-    font-family: Titan One;
+    font-family: Montserrat;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color:black;
     margin-bottom: 6vh;
-    font-size: 3vh;
+    font-size: 5vh;
 }
 ul li{
     list-style: none;
-    color: black;
+    color:white ;
+    font-weight: bold;
 }
 a{
     font-size: 2vh;
     text-decoration: none;
 }
 p a{
-    font-family: Inconsolata;
+    font-family: Arima;
 }
 #pac{
-    color: white;
+    color: black;
 }
 #space{
-    color: white;
+    color: black;
 }
 #dk{
-    color: white;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: center;
 }
