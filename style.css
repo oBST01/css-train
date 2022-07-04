@@ -59,7 +59,7 @@ h2{
     font-size: 5vh;
     
     color:black;
-    text-shadow: 0 0 0.5em whitesmoke;
+    text-shadow: 0 0 1em rgb(62, 46, 65);
     
     margin-bottom: 6vh;
 }
