@@ -133,3 +133,7 @@ footer {
     box-sizing: border-box;
     transition: 0.2s all ease-in-out;
 }
+#git{
+    text-decoration: none;
+    color: black;
+}
