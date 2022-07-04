@@ -4,6 +4,7 @@
 
 h1{
     font-style: italic;
+    text-shadow: 0 0 1em whitesmoke;
     font-family: Montserrat;
     font-size: 10vh;
     text-align: center;
