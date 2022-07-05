@@ -31,8 +31,8 @@ h1{
 }
 
 body{
-    background: rgb(26,61,189);
-    background: radial-gradient(circle, rgba(26,61,189,1) 0%, rgba(131,12,167,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,19,88,1) 51%, rgba(0,0,0,1) 100%);
 
 }
 #intro-pag{
@@ -96,8 +96,7 @@ ul{
     box-shadow: 0 0 7em rgba(255, 0, 0, 0.712);
     border-radius: 3vh;
     
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin: 20%;
     padding-top: 3vh;
 }
 #space1{
@@ -116,7 +115,7 @@ ul{
 }
 img{
     margin-bottom: 1vh;
-    width: 40%;
+    width: 60%;
 
 }
 footer {
