@@ -4,7 +4,6 @@
 
 h1{
     font-style: italic;
-    text-shadow: 0 0 1em whitesmoke;
     font-family: Montserrat;
     font-size: 10vh;
     text-align: center;
@@ -42,10 +41,9 @@ p{
     text-align: center ;
     justify-content: center;
     
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 15vh;
     
     font-size: 3vh;
     font-weight: bold;
@@ -60,7 +58,6 @@ h2{
     font-size: 5vh;
     
     color:black;
-    text-shadow: 0 0 1em rgb(62, 46, 65);
     
     margin-bottom: 6vh;
 }
@@ -132,9 +129,4 @@ footer {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: 0.2s all ease-in-out;
-}
-#git{
-    text-decoration: none;
-    color: black;
 }
