@@ -2,13 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.8s all;
+}
+
+html{
+
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
+}
 h1{
     font-style: italic;
     text-shadow: 0 0 1em whitesmoke;
     font-family: Montserrat;
     font-size: 10vh;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(143, 15, 15);
     font-weight: bold;
     
     margin-bottom: 10vh;
@@ -31,9 +43,7 @@ h1{
 }
 
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,19,88,1) 51%, rgba(0,0,0,1) 100%);
-
+    background-color: rgb(0, 0, 0);
 }
 #intro-pag{
     margin-bottom: 50vh;
@@ -59,8 +69,8 @@ h2{
     text-align: center;
     font-size: 5vh;
     
-    color:black;
-    text-shadow: 0 0 1em rgb(62, 46, 65);
+    color: rgb(143, 15, 15);
+    text-shadow: 0 0 1rem rgba(119, 10, 10, 0.651);
     
     margin-bottom: 6vh;
 }
@@ -71,17 +81,16 @@ ul li{
 }
 li:hover{
     transform: scale(1.20);
-    transition-delay: 0.4s;
+    transition-delay: 0.1s;
+    background-color: rgba(255, 255, 255, 0.192);
 }
 a{
     font-size: 3vh;
     text-decoration: none;
-}
-p a{
     font-family: Arima;
 }
 .tit-tm{
-    color: black;
+    color: rgb(143, 15, 15);
     margin-bottom: -2vh;
 }
 ul{
@@ -93,26 +102,13 @@ ul{
     text-align: center;
     
     border: 2px solid black;
-    box-shadow: 0 0 7em rgba(255, 0, 0, 0.712);
+    box-shadow: 0 0 2vh 1vh rgba(255, 0, 0, 0.712);
     border-radius: 3vh;
     
     margin: 20%;
     padding-top: 3vh;
 }
-#space1{
-    padding-bottom: 10px;
-    margin-bottom: 50vh;
-}
-#pac1{
-    margin-bottom: 50vh;
-}
-#dk1{
-    margin-bottom: 50vh;
-    padding-bottom: 10vh;
-}
-#mario1{
-    margin-bottom: 10vh;
-}
+
 img{
     margin-bottom: 1vh;
     width: 60%;
@@ -128,16 +124,11 @@ footer {
     font-family: Arima;
     font-weight: bold;
     font-size: 4vh;
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: 0.2s all ease-in-out;
+    color: rgb(143, 15, 15);
 }
 #git{
     text-decoration: none;
-    color: black;
+    color: rgb(143, 15, 15);
 }
 #m{
     margin-top: 6vh;
