@@ -49,7 +49,7 @@ body{
     margin-bottom: 50vh;
 }
 p{
-    text-align: center ;
+    text-align: justify ;
     justify-content: center;
     
     flex-direction: column;
